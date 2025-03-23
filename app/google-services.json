@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "837698709468",
+    "project_id": "tempo-71986",
+    "storage_bucket": "tempo-71986.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837698709468:android:1d43f0b9d8d14df6455119",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837698709468-behefu70eket2tlh114i7d1fmg6lsshf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "deb2a1244085d36e7980155a7d2a325e144b7d7e"
+          }
+        },
+        {
+          "client_id": "837698709468-s8q7nk69q6enohteaia3ipsdap62le6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCem5y47LJwEhAMCjlbk8yQufNgoOT3KbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837698709468-s8q7nk69q6enohteaia3ipsdap62le6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

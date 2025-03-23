@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Estadisticas">
+
+    <!-- Logo de la aplicación -->
+
+    <!-- Estadísticas de canciones escuchadas -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="173dp"
+        android:layout_height="277dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo_modified"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/cancionesEscuchadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="Canciones escuchadas globalmente: "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <!-- Estadísticas de minutos escuchados -->
+    <TextView
+        android:id="@+id/minutosEscuchados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="Minutos escuchados globalmente: "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/desarrolladores"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:paddingTop="40dp"
+        android:text="Desarrolladores: Raúl Navarro, Carlos Ayllón, Hugo Serrat e Iván Gonzalo Garcia"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

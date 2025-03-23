@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tempo</string>
+    <string name="profile_image">Imagen de perfil</string>
+    <string name="title_activity_busqueda">Busqueda</string>
+    <string name="title_activity_lupa">Lupa</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_estadisticas">Estadisticas</string>
+</resources>

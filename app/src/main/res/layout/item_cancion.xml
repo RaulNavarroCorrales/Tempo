@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Imagen de la canción -->
+    <ImageView
+        android:id="@+id/imagenCancion"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/logo_modified" />
+
+    <!-- Nombre de la canción -->
+    <TextView
+        android:id="@+id/nombreCancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Canción"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
